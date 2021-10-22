@@ -4,6 +4,8 @@ get_next_line
 
 Функиия компилируется следующим образом:
 
+```bash
 gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
+```
 
 BUFFER_SIZE - размер буфера функции
